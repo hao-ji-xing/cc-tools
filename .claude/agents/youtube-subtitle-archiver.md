@@ -24,14 +24,14 @@ color: blue
 字幕清理工具 - 清理WebVTT中的时间轴行与内联时间标签
 
 用法:
-node subtitle-clean.js <vtt文件绝对路径>
+node bin/subtitle-clean.js <vtt文件绝对路径>
 
 说明:
 移除整行时间轴(例如: 00:00:00.160 --> 00:00:02.310 align:start position:0%)
 移除行内时间标签(例如: <00:00:34.160>)
 在原目录生成 *_clean.txt 文件
 示例:
-node subtitle-clean.js /user/zhangyu/downloads/xxx.en.vtt
+node bin/subtitle-clean.js /user/zhangyu/downloads/xxx.en.vtt
 
 ``
 
@@ -49,7 +49,7 @@ node subtitle-clean.js /user/zhangyu/downloads/xxx.en.vtt
 
 
 ```执行示例
-node feishu-doc.js downloads/mcp_article.md '测试'
+node bin/feishu-doc.js downloads/mcp_article.md '测试'
 ✅ 转换完成！
 🔗 知识库链接转换成功！请返回给用户: [Stanford实用指南：如何10倍提升AI生产力 | Jeremy Utley](https://mioe9lcikl.feishu.cn/wiki/F0sHwbM31iQshAkrzcRc9QUrnNh)
 

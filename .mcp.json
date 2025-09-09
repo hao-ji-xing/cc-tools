@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "browsermcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@browsermcp/mcp@latest"
+      ],
+      "env": {}
+    },
+    "feishutask": {
+      "type": "http",
+      "url": "https://open.feishu.cn/mcp/stream/mcp_mL1zLBLhaa_quhyHcz6J5e9Vu_NGbYB4bp2Wwem6SbRL3mkBz125UzFUYc9OYcbAMZyuJE-fqWI"
+    }
+  }
+}
